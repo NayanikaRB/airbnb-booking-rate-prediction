@@ -55,7 +55,7 @@ A large set of engineered features was created from the raw listing data, includ
 - interaction features such as sentiment × price
 - availability and booking pressure indicators
 
-The final feature space included 144 features. :contentReference[oaicite:1]{index=1}
+The final feature space included 144 features. 
 
 ### 3. Model Development
 Multiple models were trained and evaluated, including:
@@ -67,7 +67,7 @@ Multiple models were trained and evaluated, including:
 - Stacking ensemble
 - SMOTE-based XGBoost experiments
 
-These model families and experiments are documented in the report. :contentReference[oaicite:2]{index=2}
+These model families and experiments are documented in the report.
 
 ### 4. Final Model
 The final winning model was a tuned XGBoost classifier optimized using Bayesian hyperparameter tuning with Weights & Biases. The model achieved:
@@ -75,7 +75,6 @@ The final winning model was a tuned XGBoost classifier optimized using Bayesian 
 - holdout AUC: 0.9141
 - hidden test AUC: 0.916
 
-:contentReference[oaicite:3]{index=3} 
 
 ## Key Insights
 Some important findings from the analysis:
@@ -84,14 +83,12 @@ Some important findings from the analysis:
 - availability over the year is strongly related to booking performance
 - cancellation policy and pricing behavior also affect booking outcomes
 
-These insights are discussed in the project report’s EDA section. :contentReference[oaicite:5]{index=5} :contentReference[oaicite:6]{index=6}
-
 ## Files
 - `EDA.ipynb` — exploratory analysis and visual insights
 - `Feature_engineering.ipynb` — feature creation and transformation logic
 - `Models.ipynb` — model training, tuning, and evaluation
-- `high_booking_rate_group12-10-1.csv` — prediction output / submission file
-- `Data Mining Project Report.pdf` — full project documentation
+- `high_booking_rate_predictions.csv` — prediction output / submission file
+- `Report.pdf` — full project documentation
 
 ## Tech Stack
 - Python
